@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-kid min-h-screen text-slate-800;
+  background: linear-gradient(160deg, #fef3c7 0%, #fbcfe8 50%, #bae6fd 100%);
+  background-attachment: fixed;
+}
+.btn-big {
+  @apply rounded-3xl px-6 py-4 text-xl font-semibold shadow-lg transition active:scale-95 hover:brightness-105 focus:outline-none focus-visible:ring-4 ring-sky-400;
+}
